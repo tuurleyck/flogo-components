@@ -4,7 +4,7 @@ My collection of custom built flogo components
 ## Components
 
 ### Activities
-* [elasticloud](activity/elasticloud): Add a specified number of days to either the current date or a chosen date
+* [elasticloud](activity/elasticloud): Index a document to Elastic Cloud
 
 ### Triggers
 * none for now
