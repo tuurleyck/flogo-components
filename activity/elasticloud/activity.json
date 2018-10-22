@@ -1,0 +1,44 @@
+{
+  "name": "elasticloud",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "Elastic Cloud activity",
+  "ref": "github.com/tuurleyck/flogo-components/activity/elasticloud",
+  "author": "Arthur Eyckerman <arthur.eyckerman@elastic.co>",
+  "inputs":[
+    {
+      "name": "cloud_id",
+      "type": "string",
+      "required": "true"
+    },
+    {
+      "name": "cloud_auth",
+      "type": "string",
+      "required": "true"
+    },
+    {
+      "name": "index",
+      "type": "string",
+      "required": "true"
+    },
+    {
+      "name": "params",
+      "type": "params"
+    },
+    {
+      "name": "document_id",
+      "type": "string"
+    },
+    {
+      "name": "value",
+      "type": "params",
+      "required": "true"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "response",
+      "type": "string"
+    }
+  ]
+}
