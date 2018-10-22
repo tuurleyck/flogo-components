@@ -2,6 +2,7 @@
   "name": "elasticloud",
   "version": "0.0.1",
   "type": "flogo:activity",
+  "title": "Elastic Cloud",
   "description": "Elastic Cloud activity",
   "ref": "github.com/tuurleyck/flogo-components/activity/elasticloud",
   "author": "Arthur Eyckerman <arthur.eyckerman@elastic.co>",
