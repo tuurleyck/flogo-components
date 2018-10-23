@@ -2,6 +2,8 @@
 
 Index data into Elastic Cloud
 
+Log in to your exising cloud account at https://cloud.elastic.co or sign-up for a trial account on https://www.elastic.co/cloud/elasticsearch-service/signup .
+
 ## Installation
 
 ```bash
