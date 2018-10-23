@@ -36,6 +36,10 @@ Inputs and Outputs:
         "required": "true"
         },
         {
+        "name": "document_id",
+        "type": "string"
+        },
+        {
         "name": "params",
         "type": "params"
         },
@@ -59,6 +63,7 @@ Inputs and Outputs:
 | cloud_id    | Your Elastic Cloud id                                                      |
 | cloud_auth  | Your Elastic Cloud authentication (username:password)                      |
 | index       | The index in which you want to store your data                             |
+| document_id | The id for the document you want to store                                  |
 | params      | Additional parameters you might want to set for your request               |
 | value       | The data you want to store                                                 |
 
